@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+header {
+    background-color: #084C61;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 14pt;
+}
+
+.page-title {
+    color: #DB504A;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
