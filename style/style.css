@@ -39,3 +39,37 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-title {
+    font-weight: 600;
+}
+
+.contact-title, .contact-content {
+    font-size: 14pt;
+    color: #777;
+}
+
+.contact-content > a {
+    color: #777;
+}
+
+.formulario {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario > label {
+    margin-bottom: 5px;
+    font-size: 14pt;
+    color: #777;
+}
+
+.formulario > input {
+    margin-bottom: 20px;
+}
