@@ -110,4 +110,10 @@ a {
     margin: 10px 0;
 }
 
-
+button {
+    background-color: #DB504A;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 15px;
+    border: none;
+}
