@@ -11,7 +11,7 @@ ul {
 }
 
 header {
-    background-color: #084C61;
+    background-color: rgb(8, 78, 99);
 }
 
 
@@ -73,3 +73,47 @@ a {
 .formulario > input {
     margin-bottom: 20px;
 }
+
+.main-home {
+    background-image: url('../assets/annie-spratt-FSFfEQkd1sc-unsplash.jpg');
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(20, 20, 20);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-color{
+    width: 100%;
+    background: rgba(8, 78, 99,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-color > h1 {
+    font-size: 80px;
+    color: #fff;
+    margin: 0;
+}
+
+.divider {
+    width: 50%;
+    height: 1px;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+.img-wrapper {
+    width: 150px;
+    height: 150px;
+    border: solid 2px #777;
+    border-radius: 50%;
+}
+
